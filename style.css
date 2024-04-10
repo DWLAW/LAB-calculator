@@ -2,47 +2,50 @@ body {
   background-color: white;
   
 }
+html {
+  box-sizing: border-box;}
 .container {
-  display: flex;
-  row-gap: 0px;
-  flex-direction: column;
-  
- background-color: black;
- 
-  max-width: 400px;
- 
-  
-}
-.screen {background-color: black;
+  width: 400px;
+  background-color: black;
   color: white;
-  font-family: monospace;
-  text-align: right;
+ 
+  
 }
+.screen { color: white;
+font-size: 40px;
+font-family: monospace;
+text-align: right;
+padding: 20px 5px;
+}
+
+
 .button { background-color: #d8d9db;
-
+  display: flex;
+  height: 100px;
+  flex-basis: 24.5%;
+  border: none;
+  border-radius: 0;
+  font-size: 40px;
 
 }
-.button-math { 
-  background-color: #df974c;
-  display: flex;
-  flex-wrap: nowrap;
-  width: 24.5%;
-  justify-content: space-between;
-  margin-bottom: .5%;
-} 
+
+
 .button-double { 
   background-color: #d8d9db;
-  display: flex;
-  flex-wrap: nowrap;
-  width: 24.5%;
-  justify-content: space-between;
-  margin-bottom: .5%;
+  height: 100px;
+  flex-basis: 24.5%;
+  border: none;
+  border-radius: 0;
+  font-size: 40px;
+  flex-basis: 49.7%;
+  
 }
 .button-triple { 
   background-color: #d8d9db;
-  display: flex;
-  flex-wrap: nowrap;
-  width: 24.5%;
-  justify-content: space-between;
-  margin-bottom: .5%;
+  height: 100px;
+  flex-basis: 24.5%;
+  border: none;
+  border-radius: 0;
+  font-size: 40px;
+  flex-basis: 74.8%;
 }
