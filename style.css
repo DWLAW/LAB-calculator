@@ -1,10 +1,48 @@
 body {
-  background-color: black;
+  background-color: white;
   
 }
-.wrapper {
-
-
-  max-width:400px;
-}
+.container {
+  display: flex;
+  row-gap: 0px;
+  flex-direction: column;
   
+ background-color: black;
+ 
+  max-width: 400px;
+ 
+  
+}
+.screen {background-color: black;
+  color: white;
+  font-family: monospace;
+  text-align: right;
+}
+.button { background-color: #d8d9db;
+
+
+}
+.button-math { 
+  background-color: #df974c;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 24.5%;
+  justify-content: space-between;
+  margin-bottom: .5%;
+} 
+.button-double { 
+  background-color: #d8d9db;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 24.5%;
+  justify-content: space-between;
+  margin-bottom: .5%;
+}
+.button-triple { 
+  background-color: #d8d9db;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 24.5%;
+  justify-content: space-between;
+  margin-bottom: .5%;
+}
