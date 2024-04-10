@@ -18,7 +18,12 @@ text-align: right;
 padding: 20px 5px;
 }
 
-
+.row {
+  display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
 .button { background-color: #d8d9db;
   display: flex;
   height: 100px;
@@ -48,4 +53,36 @@ padding: 20px 5px;
   border-radius: 0;
   font-size: 40px;
   flex-basis: 74.8%;
+}
+.button:hover {
+  background-color: #ebebeb;
+}
+.button:active {
+  background-color: #bbbcbe;
+}
+
+.button-double:hover {
+  background-color: #ebebeb;
+}
+.button-double:active {
+  background-color: #bbbcbe;
+}
+.button-triple:hover {
+  background-color: #ebebeb;
+}
+.button-.button-triple {
+  background-color: #bbbcbe;
+}
+.button:last-child {
+  background-color: #df974c;
+  color: white;
+}
+.button:last-child:hover {
+  background-color: #dfb07e;
+}
+.button:last-child:active {
+  background-color: #dd8d37;
+}
+.button-row:last-child {
+  padding-bottom: 0;
 }
