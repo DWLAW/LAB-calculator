@@ -27,7 +27,7 @@ padding: 20px 5px;
 .button { background-color: #d8d9db;
   display: flex;
   height: 100px;
-  flex-basis: 24.5%;
+  width: 24.5%;
   border: none;
   border-radius: 0;
   font-size: 40px;
@@ -38,7 +38,7 @@ padding: 20px 5px;
 .button-double { 
   background-color: #d8d9db;
   height: 100px;
-  flex-basis: 24.5%;
+  width: 24.5%;
   border: none;
   border-radius: 0;
   font-size: 40px;
@@ -48,7 +48,7 @@ padding: 20px 5px;
 .button-triple { 
   background-color: #d8d9db;
   height: 100px;
-  flex-basis: 24.5%;
+  width: 24.5%;
   border: none;
   border-radius: 0;
   font-size: 40px;
