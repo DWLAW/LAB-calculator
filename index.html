@@ -11,36 +11,36 @@
 </head>
 <body>
   <div class="container">
-    <section class="screen">0</section>
+    <input type="text" id="result" class="screen" placeholder="0"></input>
     <section class="buttons">
       <div class="row">
-        <button class="button-double">C</button>
-        <button class="button">&#8592;</button>
-        <button class="button">&#247;</button>
+        <button class="button-double" onclick="clearScreen()" value="c">C</button>
+        <button class="button" id= "backspace" onclick="backSpace()" value=" ">&#8592;</button>
+        <button class="button" onclick="display('/')" value= "/">&#247;</button>
       </div>
       <div class="row">
-        <button class="button">7</button>
-        <button class="button">8</button>
-        <button class="button">9</button>
-        <button class="button">&#215;</button>
+        <button class="button" onclick="display(7)" value= "7">7</button>
+        <button class="button" onclick="display(8)" value="8">8</button>
+        <button class="button" onclick="display(9)" value="9">9</button>
+        <button class="button" onclick="display('x')" value="*">&#215;</button>
       </div>
       <div class="row">
-        <button class="button">4</button>
-        <button class="button">5</button>
-        <button class="button">6</button>
-        <button class="button">&#8722;</button>
-      </div>
-      
-      <div class="row">
-        <button class="button">1</button>
-        <button class="button">2</button>
-        <button class="button">3</button>
-        <button class="button">&#43;</button>
+        <button class="button" onclick="display(4)" value="4">4</button>
+        <button class="button" onclick="display(5)"value="5">5</button>
+        <button class="button" onclick="display(6)" value="6">6</button>
+        <button class="button" onclick="display('-')" value="-">&#8722;</button>
       </div>
       
       <div class="row">
-        <button class="button-triple">0</button>
-        <button class="button">&#61;</button>
+        <button class="button" onclick="display(1)" value="1">1</button>
+        <button class="button" onclick="display(2)" value="2">2</button>
+        <button class="button" onclick="display(3)" value="3">3</button>
+        <button class="button" onclick="display('+')" value="+">&#43;</button>
+      </div>
+      
+      <div class="row">
+        <button class="button-triple" onclick="display(0)" value="0">0</button>
+        <button class="button" onclick="solve()" value="=">&#61;</button>
       </div>
     </section>
     

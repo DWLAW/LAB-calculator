@@ -8,10 +8,14 @@ html {
   width: 400px;
   background-color: black;
   color: white;
- 
+ padding-top: 20px;
   
 }
-.screen { color: white;
+.screen {
+  display: flex; 
+  color: white;
+background-color: black;
+width: 380px;
 font-size: 40px;
 font-family: monospace;
 text-align: right;
